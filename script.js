@@ -23,17 +23,17 @@ function populateTable(data) {
       const row = table.insertRow();
       row.innerHTML = `
           <td><a href="details.html?id=${pitch.pitchNo}">Pitch ${pitch.pitchNo}</a></td>
-          <td>${pitch.date}</td>
-          <td>${pitch.time}</td>
-          <td>${pitch.batter}</td>
-          <td>${pitch.balls}</td>
-          <td>${pitch.strikes}</td>
-          <td>${pitch.outs}</td>
-          <td>${pitch.pitchCall}</td>
-          <td>${pitch.korBB}</td>
-          <td>${pitch.relSpeed}</td>
-          <td>${pitch.spinRate}</td>
-          <td>${pitch.spinAxis}</td>
+          <td>${pitch.Date}</td>
+          <td>${pitch.Time}</td>
+          <td>${pitch.Batter}</td>
+          <td>${pitch.Balls}</td>
+          <td>${pitch.Strikes}</td>
+          <td>${pitch.Outs}</td>
+          <td>${pitch.PitchCall}</td>
+          <td>${pitch.KorBB}</td>
+          <td>${pitch.RelSpeed}</td>
+          <td>${pitch.SpinRate}</td>
+          <td>${pitch.SpinAxis}</td>
       `;
   });
 }
