@@ -22,7 +22,7 @@ function populateTable(data) {
   data.forEach(pitch => {
       const row = table.insertRow();
       row.innerHTML = `
-          <td><a href="details.html?id=${pitch.pitchNo}">Pitch ${pitch.pitchNo}</a></td>
+          <td><a href="details.html?id=${pitch.PitchNo}">Pitch ${pitch.PitchNo}</a></td>
           <td>${pitch.Date}</td>
           <td>${pitch.Time}</td>
           <td>${pitch.Batter}</td>
