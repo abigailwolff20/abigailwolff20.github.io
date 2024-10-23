@@ -1,4 +1,4 @@
-function filterData {
+function filterData 
   event.preventDefault();
   
   var startdate = new Date(document.getElementById("startdate").value);
