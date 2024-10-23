@@ -1,5 +1,5 @@
-function filterData
- preventDefault();
+function filterData(){
+ event.preventDefault();
   
   var startdate = new Date(document.getElementById("startdate").value);
   var enddate = new Date(document.getElementById("enddate").value);
